@@ -1,0 +1,3 @@
+id,description,website_url,username,password,username_field,password_field,submit_button,success_indicators,logout_url,expected,actual_result
+TC001,valid id password,https://practicetestautomation.com/practice-test-login/,student,Password123,username,password,submit,"dashboard,home,profile,welcome,index",,Success,Success
+TC002,invalid id password,https://practicetestautomation.com/practice-test-login/,123,123,username,password,submit,"dashboard,home,profile,welcome,index",,Success,Failed
